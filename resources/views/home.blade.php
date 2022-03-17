@@ -3,7 +3,7 @@
 @section('header')
 <div class="background-img-home">
     <div class="home-cont">
-        <img src="storage/images/logo-img.png">
+        <img src="{{url('storage/images/logo-img.png)}}" alt="background image">
     </div>
 </div>  
 @endsection
@@ -16,7 +16,7 @@
 </div>
 
 <div class="about-cont">
-    <img src="{{url('storage/images/aboutmephoto.png')}}" alt="">
+    <img src="{{url('storage/images/aboutmephoto.png)}}" alt="about image">
     <div class="text-cont">
         <h3 class="heading3-style">About Me</h3>
         <p>Lorem ipsum dolor sit amet, consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

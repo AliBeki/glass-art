@@ -23,43 +23,43 @@
   <div class="gallery-cont">
     <ul class="gallery-ul gallery_list">
         <li class="gallery-li">
-            <a  href="storage/images/gallery/originalimage1.jpg">
-                <img src="storage/images/gallery/image1.png" alt="">
+            <a  href="{{url('storage/images/gallery/originalimage1.jpg')}}">
+                <img src="{{url('storage/images/gallery/image1.png')}}" alt="gallery image of ">
             </a>
         </li>
         <li class="gallery-li">
-            <a  href="storage/images/gallery/originalimage2.jpg">
-                <img src="storage/images/gallery/image2.png" alt="">
+            <a  href="{{url('storage/images/gallery/originalimage2.jpg')}}">
+                <img src="{{url('storage/images/gallery/image2.png')}}" alt="">
             </a>
         </li>
         <li class="gallery-li">
-            <a  href="storage/images/gallery/originalimage3.jpg">
-                <img src="storage/images/gallery/image3.png" alt="">
+            <a  href="{{url('storage/images/gallery/originalimage3.jpg')}}">
+                <img src="{{url('storage/images/gallery/image3.png')}}" alt="">
             </a>
         </li>
         <li class="gallery-li">
-            <a  href="storage/images/gallery/originalimage4.jpg">
-                <img src="storage/images/gallery/image4.png" alt="">
+            <a  href="{{url('storage/images/gallery/originalimage4.jpg')}}">
+                <img src="{{url('storage/images/gallery/image4.png')}}" alt="">
             </a>
         </li>
         <li class="gallery-li">
-            <a  href="storage/images/gallery/originalimage5.jpg">
-                <img src="storage/images/gallery/image5.png" alt="">
+            <a  href="{{url('storage/images/gallery/originalimage5.jpg')}}">
+                <img src="{{url('storage/images/gallery/image5.png')}}" alt="">
             </a>
         </li>
         <li class="gallery-li">
-            <a  href="storage/images/gallery/originalimage6.jpg">
+            <a  href="{{url('storage/images/gallery/originalimage6.jpg)}}">
                 <img src="storage/images/gallery/image6.png" alt="">
             </a>
         </li>
         <li class="gallery-li">
-            <a  href="storage/images/gallery/originalimage7.jpg">
+            <a  href="{{url('storage/images/gallery/originalimage7.jpg')}}">
                 <img src="storage/images/gallery/image7.png" alt="">
             </a>
         </li>
         <li class="gallery-li">
-            <a  href="storage/images/gallery/originalimage8.jpg">
-                <img src="storage/images/gallery/image8.png" alt="">
+            <a  href="{{url('storage/images/gallery/originalimage8.jpg)}}">
+                <img src="{{url('storage/images/gallery/image8.png')}}" alt="">
             </a>
         </li>
         <li class="gallery-li">

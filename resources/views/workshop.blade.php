@@ -16,25 +16,30 @@
 </div>
 
 <div class="info-cont">
-    <img src="storage/images/workshop/tiffanytechnique1.jpg" alt="">
+    <img src="storage/images/workshop/tiffanytechnique1.png" alt="">
     <p class="text-cont2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolor excepturi enim sapiente, architecto repudiandae sint fuga voluptate molestiae recusandae.</p>
 </div>
 
 <div class="info-cont-inverted">
-    <img src="storage/images/workshop/tiffanytechnique2.jpg" alt="">
+    <img src="storage/images/workshop/tiffanytechnique2.png" alt="">
     <p class="text-cont2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum nemo ea enim nisi placeat!</p>
 </div>
 
 
 <div class="info-cont">
-    <img src="storage/images/workshop/tiffanytechnique3.jpg" alt="">
+    <img src="storage/images/workshop/tiffanytechnique3.png" alt="">
     <p class="text-cont2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo nulla itaque ratione deserunt ipsum ut laudantium. Quaerat, cum.</p>
 </div>
 
 
 <div class="info-cont-inverted">
-    <img src="storage/images/workshop/tiffanytechnique4.jpg" alt="">
+    <img src="storage/images/workshop/tiffanytechnique4.png" alt="">
     <p class="text-cont2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas itaque sequi quis magnam totam tempore delectus, illum recusandae modi.</p>
+</div>
+
+<div class="info-cont">
+    <img src="storage/images/gallery/originalimage6.jpg" alt="">
+    <p class="text-cont2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo nulla itaque ratione deserunt ipsum ut laudantium. Quaerat, cum.</p>
 </div>
 
 

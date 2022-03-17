@@ -62,6 +62,7 @@
   p {
     line-height: 1.7em;
     font-family: 'Maven Pro', sans-serif;
+    font-size: 1.2em;
   }
   
   ul {
@@ -141,8 +142,8 @@ nav a:hover{
 }
 
 .heading3-style {
-    padding: 2em;
-    font-size: 1.5em;
+    padding: 1.5em;
+    font-size: 1.9em;
     color: #41000f;
 }
 
@@ -155,6 +156,7 @@ nav a:hover{
 .home-cont img {
     display: flex;
     margin: 1em auto;
+    opacity: 0.95;
 }
 
 .about-cont, .contact-cont {
@@ -299,7 +301,7 @@ nav a:hover{
 .info-cont, .info-cont-inverted {
     display: flex;
     justify-content: center;
-    margin: 2em 0;
+    margin: 6em 0;
 }
 
  .info-cont-inverted img{
@@ -446,6 +448,7 @@ TABLET
         .text-cont {
             margin: 2em auto 5em;
             width: 230px;
+            font-size: 1.6em;
         }
 
         .footer-small {
