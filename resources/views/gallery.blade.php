@@ -63,33 +63,33 @@
             </a>
         </li>
         <li class="gallery-li">
-            <a  href="storage/images/gallery/originalimage9.jpg">
-                <img src="storage/images/gallery/image9.png" alt="">
+            <a  href="{{url('storage/images/gallery/originalimage9.jpg')}}">
+                <img src="{{url('storage/images/gallery/image9.png')}}" alt="">
             </a>
         </li>
         <li class="gallery-li">
-            <a  href="storage/images/gallery/originalimage10.jpg">
-                <img src="storage/images/gallery/image10.png" alt="">
+            <a  href="{{url('storage/images/gallery/originalimage10.jpg')}}">
+                <img src="{{url('storage/images/gallery/image10.png}}" alt="">
             </a>
         </li>
         <li class="gallery-li">
-            <a  href="storage/images/gallery/originalimage11.jpg">
-                <img src="storage/images/gallery/image11.png" alt="">
+            <a  href="{{url('storage/images/gallery/originalimage11.jpg')}}">
+                <img src="{{url('storage/images/gallery/image11.png')}}" alt="">
             </a>
         </li>
         <li class="gallery-li">
-            <a  href="storage/images/gallery/originalimage12.jpg">
+            <a  href="{{url('storage/images/gallery/originalimage12.jpg')}}">
                 <img src="storage/images/gallery/image12.png" alt="">
             </a>
         </li>
         <li class="gallery-li">
-            <a  href="storage/images/gallery/originalimage13.jpg">
-                <img src="storage/images/gallery/image13.png" alt="">
+            <a  href="{{url('storage/images/gallery/originalimage13.jpg')}}">
+                <img src="{{url('storage/images/gallery/image13.png')}}" alt="">
             </a>
         </li>
         <li class="gallery-li">
-            <a  href="storage/images/gallery/originalimage14.jpg">
-                <img src="storage/images/gallery/image14.png" alt="">
+            <a  href="{{url('storage/images/gallery/originalimage14.jpg')}}">
+                <img src="{{url('storage/images/gallery/image14.png')}}" alt="">
             </a>
         </li>
     </ul>
