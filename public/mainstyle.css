@@ -22,9 +22,7 @@
   
 
   html {
-    font-size: 12px;
     scroll-behavior: smooth;
-     font-family: 'Maven Pro', sans-serif;
   
     margin: 0;
     padding: 0;
@@ -35,7 +33,7 @@
     padding: 0;
     scroll-behavior: smooth;
 
-    background-color: rgb(243, 248, 250);
+    background-color: rgb(250, 251, 252);
   }
   
   .visually-hidden {
@@ -56,6 +54,7 @@
   h2, h3{
     text-align: center;
     margin: 0;
+    font-family: didot, playfare, 'Times New Roman', Times, serif;
   }
 
 
@@ -144,7 +143,12 @@ nav a:hover{
 .heading3-style {
     padding: 1.5em;
     font-size: 1.9em;
-    color: #41000f;
+    /* color: #41000f; */
+}
+
+.headingtext-style {
+    padding: 1em;
+    font-size: 3em;
 }
 
 /* HOME */
@@ -165,13 +169,8 @@ nav a:hover{
 }
 
 .about-cont img {
-    margin: 1em 0 3em 0;
-    width: 240px;
-}
-
-.text-cont {
-    width: 350px;
-    margin: 1em 0 0 3em;
+    margin: 1em auto;
+    width: 400px;
 }
 
 .contacttext-cont {
@@ -181,6 +180,45 @@ nav a:hover{
 .contacttext-cont  p {
     margin-left: 1em;
 }
+
+.text-cont {
+    margin: 1em auto;
+    text-align: justify;
+    width: 500px;
+}
+
+.text-cont3 {
+    margin: 2em auto;
+    text-align: justify;
+    width: 800px;
+}
+
+.home-img-cont {
+    display: flex;
+    justify-content: center;
+    margin: 4em 0 0;
+   
+}
+
+.home-img-cont img {
+    margin: 0 1em;
+}
+
+.seemore-style {
+    background-color: #44A8C5;
+    color: white;
+    text-decoration: none;
+    margin: 2em auto 4em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+.seemore-style:hover {
+    background-color: #60C8D3;
+    
+}
+
+
 
 
 /* GALLERY */
@@ -240,7 +278,7 @@ nav a:hover{
 }
 
 .gallery-button:hover {
-    background-color: rgb(153, 219, 245);
+    background-color: rgb(197, 197, 197);
     cursor: pointer;
 }
 
@@ -261,6 +299,20 @@ nav a:hover{
     justify-content: center;
     
 }
+
+.galleryimgtext {
+text-align: center;
+width: 265px;
+}
+
+
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+
 
 /* CONTACT */
 .contact-formular-cont {
@@ -285,7 +337,7 @@ nav a:hover{
 
 }
 
-/*WORKSHOP*/
+/*WORKPLACE*/
 
 .text-center {
     text-align: center;
@@ -298,24 +350,61 @@ nav a:hover{
     width: 300px;
 }
 
-.info-cont, .info-cont-inverted {
+.info-cont2{
     display: flex;
     justify-content: center;
-    margin: 6em 0;
 }
 
- .info-cont-inverted img{
-    width: 500px;
-    border-radius: 2em;
+.info-cont2 img{
+    width: 350px;
+    height: 460px;
+    margin: 0 1em 4em;
 }
+
+
+
+.info-cont, .info-cont-inverted {
+    display: flex;
+    margin: 2em 0 4em;
+}
+
+
+
 
 .info-cont img{
-    width: 500px;
-    border-radius: 2em;
-}
+
+    padding: 0;
+    margin: 2em 3em 2em 0;
+    float: left;
+
+
+    display: block;
+    height: 80vh; 
+
+
+  }
+
+  .info-cont-inverted img{
+
+    padding: 0;
+    margin: 2em 0 2em 2em;
+    float: left;
+
+
+    display: block;
+    width: 100vh;
+    height:100vh;
+    object-fit: cover;
+  }
+
 
 .info-cont-inverted {
     flex-direction: row-reverse;
+}
+
+.imgtext-cont {
+    margin: 0 auto;
+    text-align: justify;
 }
 
 
@@ -340,12 +429,19 @@ nav a:hover{
 .footer-p {
     text-align: center;
     margin: 0;
+    font-size: 2em;
+    font-family: didot, playfare;
+    color: rgb(0, 42, 82);
+}
+
+.footer-small-p {
+    margin: 0;
 }
 
 .footer-small {
     display: flex;
     justify-content: center;
-    padding: 2em;
+    font-size: 0.5em;
 }
 
 
@@ -353,12 +449,6 @@ nav a:hover{
     color: black;
 }
 
-
-/* 
-
-TABLET
-
-  */
 
 @media (min-width: 426px) and (max-width:1750px){  
     .backtopbtn-cont {
@@ -368,6 +458,41 @@ TABLET
     }
 
 }
+
+
+  /* 
+Tablet Layout 
+  */
+  @media (min-width: 491px) and (max-width:800px){ 
+
+    .info-cont, .info-cont-inverted {
+        display: flex;
+        justify-content: center;
+        margin: 2em 0;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .about-cont {
+        flex-direction: column;
+    }
+
+    .text-cont3 {
+        width: 500px;
+    }
+
+    .home-img-cont {
+        flex-direction: column;
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .info-cont-inverted img {
+        height: 400px;
+    }
+
+  }
 
   
   /* 📱📱📱 
@@ -419,12 +544,13 @@ TABLET
         }
 
         .heading2-style, .heading2-style2 {
-            font-size: 3em;
+            font-size: 2em;
         }
 
         .logo {
             width: 3em;
         }
+
 
         .home-cont {
             padding:  3em 0 0;
@@ -443,12 +569,29 @@ TABLET
            display: flex;
            justify-content: center;
            margin: 2em auto;
+           width: 300px;
+        }
+
+        .home-img-cont {
+            flex-direction: column;
+            width: 200px;
+            align-items: center;
+            margin: 1em auto;
+        }
+
+        .info-cont-inverted img {
+            width: 350px;
         }
 
         .text-cont {
-            margin: 2em auto 5em;
+            margin: 2em auto;
+            text-align: justify;
             width: 230px;
-            font-size: 1.6em;
+            font-size: 1em;
+        }
+
+        .text-cont3 {
+            width: 270px;
         }
 
         .footer-small {
@@ -470,7 +613,7 @@ TABLET
             width: 250px;
         }
         
-        .info-cont, .info-cont-inverted {
+        .info-cont, .info-cont-inverted, .info-cont2 {
             display: flex;
             justify-content: center;
             margin: 2em 0;
@@ -480,13 +623,31 @@ TABLET
         }
         
          .info-cont-inverted img{
-            width: 300px;
-            border-radius: 2em;
+            height: 300px;
+            margin: 0;
         }
         
         .info-cont img{
-            width: 300px;
-            border-radius: 2em;
+            height: 300px;
+            margin: 0;
+        }
+
+      
+
+        .headingtext-style {
+            font-size: 1.8em;
+        }
+
+        .text-cont2 {
+            font-size: 1em;
+        }
+
+        .footer-cont {
+            padding-top: 2em;
+        }
+
+        .footer-p {
+            font-size: 1.2em;
         }
         
 

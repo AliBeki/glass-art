@@ -14,7 +14,7 @@
     <div class="contacttext-cont">
         <h3 class="heading3-style">My Contact Details</h3>
         <p>Ewa Pietruszewska</p>
-        <p>Email: glassart.piet@gmail.com</p>
+        <p>E-Mail: glassart.piet@gmail.com</p>
     </div>
 </div>
 

@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MainController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,26 +15,28 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
 
-Route::get('/gallery', function () {
-    return view('gallery');
-})->name('gallery');
+Route::get('/', [MainController::class, 'index'])->name('home');
+Route::get('gallery', [MainController::class, 'gallery'])->name('gallery');
+Route::get('workplace', [MainController::class, 'workplace'])->name('workplace');
+Route::get('contact', [MainController::class, 'contact'])->name('contact');
 
-Route::get('/workplace', function () {
-    return view('workplace');
-})->name('workplace');
 
-Route::get('/workshop', function () {
-    return view('workshop');
-})->name('workshop');
+Route::get('de', [MainController::class, 'de'])->name('de');
+Route::get('en', [MainController::class, 'en'])->name('en');
+Route::get('pl', [MainController::class, 'pl'])->name('pl');
 
-Route::get('/contact', function () {
-    return view('contact_me');
-})->name('contact');
+Route::group(['prefix'=>'admin', 'as'=>'admin.'], function(){
+    Route::get('gallery/add', [AdminController::class, 'galleryAdd'])->name('gallery.add');
+    Route::get('gallery/{image}/delete', [AdminController::class, 'galleryDelete'])->name('gallery.delete');
+    Route::get('gallery/{image}/edit', [AdminController::class, 'galleryEdit'])->name('gallery.edit');
+    Route::post('gallery/{image}', [AdminController::class, 'galleryUpdate'])->name('gallery.update');
+    Route::post('gallery/create', [AdminController::class, 'galleryCreate'])->name('gallery.create');
+    Route::get('gallery/create', [AdminController::class, 'galleryCreateGet'])->name('gallery.create.get');
+});
 
-Route::get('contact-me', 'ContactController@getContact');
-Route::post('contact-me', 'ContactController@saveContact');
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth'])->name('dashboard');
 
+require __DIR__.'/auth.php';

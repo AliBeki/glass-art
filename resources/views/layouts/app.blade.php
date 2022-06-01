@@ -7,21 +7,21 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet">
     <title>Glassmaking Ewa</title>
 
-    <link rel="stylesheet" href="mainstyle.css">
+    <link rel="stylesheet" href="{{asset('mainstyle.css')}}">
     
 
 </head>
 
 <body class="site">
     <header class="site-header">
-        <h1 class="visually-hidden">Glassmaking Art Ewa</h1>
+        <h1 class="visually-hidden">Glass Art Ewa</h1>
 
 
         <nav class="nav-bg stickynav nav" id="main-menu">
         <div class="logo-burger-menu">
             <div>
                 <a class="home" href="{{ route('home') }}"">
-                    <img class="logo" src="storage/images/logo-img.jpg" alt="">
+                    <img class="logo" src="storage/images/logo-img.jpg" alt="glass art logo">
                 </a>
             </div>
 
@@ -50,9 +50,14 @@
             <ul class="mainnav menu">
                 <li><a class="nav-item aboutus-navitem" href="{{ route('gallery') }}">Gallery</a></li>
                 <li><a class="nav-item" href="{{ route('workplace') }}">Workplace</a></li>
-                <li><a class="nav-item" href="{{ route('workshop') }}">Workshop</a></li>
                 <li><a class="nav-link nav-item" href="{{ route('contact') }}">Contact</a></li>
             </ul>
+
+            <a href="{{route('en')}}"><img src="">en</a>
+            <a href="{{route('de')}}"><img src="">de</a>
+            <a href="{{route('pl')}}"><img src="">pl</a>
+
+            
         </nav>
   
     </header>
@@ -77,7 +82,9 @@
 <div class="footer-cont">
 
         <p class="footer-p">Email: glassart.piet@gmail.com</p>
-        <small class="footer-small">All the content on this website was created by Ewa Pietruszewska</small>
+        <p class="footer-small-p"><small class="footer-small">All the content on this website was created by Ewa Pietruszewska</small></p>
+        <p class="footer-small-p"><small class="footer-small">Data Protection and Privacy Policy</small></p>
+        
     </div>
 </footer>
 
